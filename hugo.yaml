@@ -3,6 +3,9 @@ languageCode: en-us
 title: Robert's Note
 theme: ["PaperMod"]
 
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
 
 languages:
   en:
