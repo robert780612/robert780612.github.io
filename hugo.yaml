@@ -55,38 +55,22 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
-  # author: ["Me", "You"] # multiple authors
+  author: Robert
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
-  displayFullLangName: true
+  # displayFullLangName: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  # ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
+  # ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
-  ShowPageNums: true
+  # ShowPageNums: true
   ShowToc: true
-  # comments: false
-  images: ["images/papermod-cover.png"]
-
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+  comments: true
+  # images: ["images/papermod-cover.png"]
 
   homeInfoParams:
     Title: "Welcome to Robert's Note"
@@ -104,6 +88,6 @@ params:
       url: "https://www.linkedin.com/in/robert780612/"
 
   editPost:
-    URL: "https://github.com/robert780612/robert780612.github.io/content"
+    URL: "https://github.com/robert780612/robert780612.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
