@@ -17,6 +17,9 @@ languages:
       series: series
     menu:
       main:
+        - name: Posts
+          url: Posts/
+          weight: 1
         - name: Archive
           url: archives
           weight: 5
