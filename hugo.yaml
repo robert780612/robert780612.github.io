@@ -1,12 +1,29 @@
+title: Robert's Note
 baseURL: https://robert780612.github.io/
 languageCode: en-us
-title: Robert's Note
 theme: ["PaperMod"]
 
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+  
 languages:
   en:
     languageName: "English"
@@ -29,8 +46,64 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
+
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: Theme PaperMod
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Welcome to Robert's Note"
+    Content: >
+      👋 I'm Robert. This is my learning note. 
+      
+      If you find any error, please feel free to contact me. 
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/robert780612/robert780612.github.io"
+    - name: linkedin
+      title: View Profile on LinkedIn
+      url: "https://www.linkedin.com/in/robert780612/"
+
+  editPost:
+    URL: "https://github.com/robert780612/robert780612.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link

@@ -17,4 +17,5 @@ description: "Desc Text."
 LLM (Large Language Model) agents are AI systems designed to understand and generate human-like text based on the input they receive. 
 
 
-[1] [Context-Engineering](https://github.com/davidkimai/Context-Engineering){:target="_blank"}
+[1] [Context-Engineering](https://github.com/davidkimai/Context-Engineering)
+
