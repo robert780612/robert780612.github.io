@@ -8,7 +8,7 @@ author: "Robert"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "Desc Text."
@@ -17,7 +17,6 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
