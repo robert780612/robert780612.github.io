@@ -1,6 +1,6 @@
 ---
 date: '2025-11-23T04:48:51Z'
-draft: true
+draft: false
 title: 'ARC Is a Vision Problem!'
 showToc: true
 TocOpen: true
@@ -11,7 +11,6 @@ description: "Vision ARC (VARC): Reframing Abstraction and Reasoning Corpus as a
 
 
 The Abstraction and Reasoning Corpus (ARC) is a prominent benchmark for few-shot abstract reasoning over colored grids, widely regarded as a challenge toward AGI. It requires models to deduce implicit, human-understandable transformation rules from a limited set of input-output examples. Historically, ARC has often been treated as a language-oriented problem, addressed by Large Language Models (LLMs).
-
 
 ## Vision ARC (VARC): Reframing Abstraction and Reasoning Corpus (ARC) as a Vision Problem
 
