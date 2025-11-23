@@ -4,7 +4,7 @@ date: 2025-11-23T04:40:51Z
 tags: ["diffusion", "generative models", "JiT"]
 author: "Robert"
 draft: false
-description: "Just Image Transformer (JiT): A novel approach to image generation using denoising generative models."
+description: "Just Image Transformer (JiT): A novel approach to image generation by predicting images directly."
 showToc: true
 TocOpen: true
 ---
