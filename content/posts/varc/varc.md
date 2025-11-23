@@ -19,11 +19,11 @@ Historically, ARC has often been treated as a language-oriented problem, address
 
 In this work, the authors propose Vision ARC (VARC), a novel framework that reframes ARC entirely into a vision paradigm, yielding two major contributions:
 
-1. Vision-Centric Formulation: VARC treats the benchmark as a vision problem, formulating it as an image-to-image translation task.
+1. **Vision-Centric Formulation**: VARC treats the benchmark as a vision problem, formulating it as an image-to-image translation task.
    * The input grids are represented as images on a "canvas," where each raw pixel is an input token.
    * The distinct colors, including the background, form a small vocabulary of $C+1$ tokens. (i.e., $C$ colors plus 1 background token.)
    * The architecture, a Vision Transformer (ViT), naturally incorporates visual priors. To further enforce critical inductive biases like translation invariance, the authors adopt scale and translation augmentations.
-2. Test-Time Training (TTT) for Generalization: VARC is trained from scratch solely on the ARC training data and achieves few-shot generalization to unseen tasks through a two-stage process:
+2. **Test-Time Training (TTT) for Generalization**: VARC is trained from scratch solely on the ARC training data and achieves few-shot generalization to unseen tasks through a two-stage process:
    * Offline Training: A ViT backbone shares parameters across all training tasks.
    * Test-Time Training (TTT): When faced with a new, unseen test task, the core ViT parameters are frozen. Only task-conditional tokens are randomly initialized and then quickly trained on the few provided demo examples for that specific task. This rapid adaptation tunes the general-purpose model to the unique logic of the new task.
 

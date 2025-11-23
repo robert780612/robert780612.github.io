@@ -74,7 +74,7 @@ params:
     Content: >
       👋 I'm Robert. This is my learning note. 
       
-      If you find any error, please feel free to contact me. 
+      If you find any error, please feel free to create an issue or submit a pull request on GitHub. 
 
   socialIcons:
     - name: github
